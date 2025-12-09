@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Sorfina's Bookstore</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <br>
+            <style>
+                .cursive-text {
+                    font-family: 'Brush Script MT', cursive;
+                    text-align: center;
+                    font-size: 65px;
+                    color: white;
+                    background-color: rgb(77, 35, 4);}
+            </style>
+            <h1 class="cursive-text">Sorfina's Bookstore</h1>
+        </header>
+
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <img src="logo.jpg" class="rounded-circle" alt="profile pic" style="max-width: 50px;" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sales</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Book genres
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="action.html">Action</a></li>
+                      <li><a class="dropdown-item" href="friction.html">Friction</a></li>
+                      <li><a class="dropdown-item" href="nonfriction.html">Non-friction</a></li>
+                      <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+                      <li><a class="dropdown-item" href="mystery.html">Mystery</a></li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">Account</a>
+                      </li>
+                  </li>
+                </ul>
+                <style>
+                    .btn-brown {
+                      background-color: rgb(122, 68, 47);
+                      color: white;
+                      border: none;
+                    }
+                  
+                    .btn-brown:hover {
+                      background-color: #b68b57; /* darker brown on hover */
+                    }
+                  </style>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-brown" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <style>
+            .center-image {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          </style>
+          
+        <img src="bookstore header.png" alt="header" class="center-image" style="width: 100%;">
+
+        <!--books-->
+        <br>
+        <h3 style="padding-left: 10px;">Books</h3>
+        <style>
+            .card {
+              flex: 1;
+            }
+          </style>
+        <div class="d-flex justify-content-center gap-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/6b/8f/3b/6b8f3b99b806c13859cf5759d8a0fb5a.jpg" class="card-img-top" alt="fantasy1" style="width: 100%">
+                        <div class="card-body">
+                          <h5 class="card-title">A court of thorns and roses</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="CTR.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/e9/1a/05/e91a0504eb3c3d4284dea84a5a7f4039.jpg" class="card-img-top" alt="fiction1">
+                        <div class="card-body">
+                          <h5 class="card-title">The hunger games</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href= "hunger.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/16/9e/d2/169ed23dc76d72978216914d197d3bc1.jpg" class="card-img-top" alt="fiction2">
+                        <div class="card-body">
+                          <h5 class="card-title">Deep end</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="deepend.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="book2.jpg" class="card-img-top" alt="fantasy3">
+                        <div class="card-body">
+                          <h5 class="card-title">The cruel Prince</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href= "cruel.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/8c/d0/8e/8cd08ebf8de43c720c8b9f4f27a7e9fd.jpg" class="card-img-top" alt="fiction6">
+                        <div class="card-body">
+                          <h5 class="card-title">The fault in our stars</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="stars.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="book3.jpg" class="card-img-top" alt="fantasy1">
+                        <div class="card-body">
+                          <h5 class="card-title">Ignite me</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="ignite.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="book4.jpg" class="card-img-top" alt="fiction5">
+                        <div class="card-body">
+                          <h5 class="card-title">This is going to hurt</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href= "hurt.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="book5.jpg" class="card-img-top" alt="fiction4">
+                        <div class="card-body">
+                          <h5 class="card-title">A little life</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="a little life.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/d0/05/db/d005dbbe38cc5e0ef04e9027486ee988.jpg" class="card-img-top" alt="fiction3">
+                        <div class="card-body">
+                          <h5 class="card-title">The goose girl</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="goose.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/ee/c3/7c/eec37c45c2b005f960546946d242308a.jpg" class="card-img-top" alt="action4">
+                        <div class="card-body">
+                          <h5 class="card-title">The silent patient</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="silent.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/736x/c1/cc/ca/c1cccad2d3684f154db6a359eb463b8a.jpg" class="card-img-top" alt="fiction3">
+                        <div class="card-body">
+                          <h5 class="card-title">We solve murders</h5>
+                          <p class="card-text"></p>
+                          <p class="card-text"><small class="text-muted"><a href="murder.html">See more ></a></small></p>
+                        </div>
+                      </div>
+                </div>
+          </div>
+    </body>
+</html>
